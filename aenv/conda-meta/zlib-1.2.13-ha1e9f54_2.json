@@ -1,0 +1,92 @@
+{
+  "name": "zlib",
+  "version": "1.2.13",
+  "build": "ha1e9f54_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "zlib-1.2.13-ha1e9f54_2.conda",
+  "md5": "1acf1985f63d8b3b403cbd24de6bf339",
+  "legacy_bz2_md5": "5d4571b39e39dbfbc2a1ea4fc9c20b4f",
+  "legacy_bz2_size": 102744,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/zlib-1.2.13-ha1e9f54_2.conda",
+  "sha256": "bd3bf51fdb88b3000fec6e7e3685b62021c025f10b11245612b3ded9ed2bce6c",
+  "depends": [
+    "__osx >=12.1"
+  ],
+  "constrains": [],
+  "license": "Zlib",
+  "license_family": "Other",
+  "timestamp": 1757428886931,
+  "size": 83757,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/Users/ameersohail/miniforge3/pkgs/zlib-1.2.13-ha1e9f54_2.conda",
+  "extracted_package_dir": "/Users/ameersohail/miniforge3/pkgs/zlib-1.2.13-ha1e9f54_2",
+  "files": [
+    "include/zconf.h",
+    "include/zlib.h",
+    "lib/libz.1.2.13.dylib",
+    "lib/libz.1.dylib",
+    "lib/libz.a",
+    "lib/libz.dylib",
+    "lib/pkgconfig/zlib.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/zconf.h",
+        "path_type": "hardlink",
+        "sha256": "e5a9079e37fa799583634fcd6905b53f1c20fd1d98e6bae942674c3c419b9fab",
+        "size_in_bytes": 16671,
+        "sha256_in_prefix": "e5a9079e37fa799583634fcd6905b53f1c20fd1d98e6bae942674c3c419b9fab"
+      },
+      {
+        "_path": "include/zlib.h",
+        "path_type": "hardlink",
+        "sha256": "a980a0d104198a53cc220c51ab5856e5be901bec8a2d02e0ee79a8754219dfed",
+        "size_in_bytes": 97323,
+        "sha256_in_prefix": "a980a0d104198a53cc220c51ab5856e5be901bec8a2d02e0ee79a8754219dfed"
+      },
+      {
+        "_path": "lib/libz.1.2.13.dylib",
+        "path_type": "hardlink",
+        "sha256": "ebb63412da5d65c1703cd30d620376abc7fa80ac97178f5c7d9676ec0f3e77dc",
+        "size_in_bytes": 124608,
+        "sha256_in_prefix": "ebb63412da5d65c1703cd30d620376abc7fa80ac97178f5c7d9676ec0f3e77dc"
+      },
+      {
+        "_path": "lib/libz.1.dylib",
+        "path_type": "softlink",
+        "sha256": "ebb63412da5d65c1703cd30d620376abc7fa80ac97178f5c7d9676ec0f3e77dc",
+        "size_in_bytes": 124608
+      },
+      {
+        "_path": "lib/libz.a",
+        "path_type": "hardlink",
+        "sha256": "25386d271ed42959339e365c3fcccdf00b1cd48198a7c1bf8baa981973ad8475",
+        "size_in_bytes": 106016,
+        "sha256_in_prefix": "25386d271ed42959339e365c3fcccdf00b1cd48198a7c1bf8baa981973ad8475"
+      },
+      {
+        "_path": "lib/libz.dylib",
+        "path_type": "softlink",
+        "sha256": "ebb63412da5d65c1703cd30d620376abc7fa80ac97178f5c7d9676ec0f3e77dc",
+        "size_in_bytes": 124608
+      },
+      {
+        "_path": "lib/pkgconfig/zlib.pc",
+        "prefix_placeholder": "/opt/miniconda3/conda-bld/zlib_1757428860700/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "18588650d7079d44243c2c71db83e5afe8d7d77be2a90a0e448dc97891b9afb7",
+        "size_in_bytes": 1487,
+        "sha256_in_prefix": "d3d420762f437dcf4baeacc55efed56c976df3309324681dfd6157378d0a143e"
+      }
+    ]
+  },
+  "link": {
+    "source": "/Users/ameersohail/miniforge3/pkgs/zlib-1.2.13-ha1e9f54_2",
+    "type": 1
+  }
+}

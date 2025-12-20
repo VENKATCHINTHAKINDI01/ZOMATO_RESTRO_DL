@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+pymongo
+seaborn
+streamlit
+tensorflow
+gensim
+nltk
+python-dotenv

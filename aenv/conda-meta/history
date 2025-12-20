@@ -1,0 +1,19 @@
+==> 2025-12-15 20:45:05 <==
+# cmd: /Users/ameersohail/miniforge3/bin/conda create -p aenv python==3.9 -y
+# conda version: 25.11.0
++conda-forge/osx-arm64::python-3.9.0-h4b4120c_5_cpython
++defaults/noarch::pip-25.3-pyhc872135_0
++defaults/noarch::tzdata-2025b-h04d1e81_0
++defaults/osx-arm64::ca-certificates-2025.12.2-hca03da5_0
++defaults/osx-arm64::libcxx-20.1.8-hd7fd590_1
++defaults/osx-arm64::libffi-3.3-hc377ac9_2
++defaults/osx-arm64::ncurses-6.5-hee39554_0
++defaults/osx-arm64::openssl-1.1.1w-h1a28f6b_0
++defaults/osx-arm64::readline-8.3-h0b18652_0
++defaults/osx-arm64::setuptools-80.9.0-py39hca03da5_0
++defaults/osx-arm64::sqlite-3.51.0-hab6afd1_0
++defaults/osx-arm64::tk-8.6.15-hcd8a7d5_0
++defaults/osx-arm64::wheel-0.45.1-py39hca03da5_0
++defaults/osx-arm64::xz-5.6.4-h80987f9_1
++defaults/osx-arm64::zlib-1.2.13-ha1e9f54_2
+# update specs: ['python==3.9']
