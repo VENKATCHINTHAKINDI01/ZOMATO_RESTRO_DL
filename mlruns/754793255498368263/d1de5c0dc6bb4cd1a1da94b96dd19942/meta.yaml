@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ameersohail/Documents/Zomato_restro_DL/mlruns/754793255498368263/d1de5c0dc6bb4cd1a1da94b96dd19942/artifacts
+end_time: 1766400951847
+entry_point_name: ''
+experiment_id: '754793255498368263'
+lifecycle_stage: active
+run_id: d1de5c0dc6bb4cd1a1da94b96dd19942
+run_name: chill-hog-883
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766400947172
+status: 3
+tags: []
+user_id: ameersohail

@@ -14,5 +14,8 @@ logging.basicConfig(
     level=logging.INFO
 )
 
+def get_logger():
+  return logging
+
 ##if __name__== "__main__":
   ##  logging.info("logging has started: ")

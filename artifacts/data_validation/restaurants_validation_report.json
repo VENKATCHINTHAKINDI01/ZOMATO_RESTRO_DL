@@ -1,0 +1,15 @@
+{
+    "row_count": 105,
+    "column_count": 6,
+    "missing_values": {
+        "Name": 0,
+        "Links": 0,
+        "Cost": 0,
+        "Collections": 54,
+        "Cuisines": 0,
+        "Timings": 1
+    },
+    "missing_required_columns": [
+        "Cuisine"
+    ]
+}

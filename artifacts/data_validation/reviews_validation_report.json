@@ -1,0 +1,14 @@
+{
+    "row_count": 10000,
+    "column_count": 7,
+    "missing_values": {
+        "Restaurant": 0,
+        "Reviewer": 38,
+        "Review": 45,
+        "Rating": 38,
+        "Metadata": 38,
+        "Time": 38,
+        "Pictures": 0
+    },
+    "missing_required_columns": []
+}

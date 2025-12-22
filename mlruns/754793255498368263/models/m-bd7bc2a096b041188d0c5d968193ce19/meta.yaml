@@ -1,0 +1,10 @@
+artifact_location: file:///Users/ameersohail/Documents/Zomato_restro_DL/mlruns/754793255498368263/models/m-bd7bc2a096b041188d0c5d968193ce19/artifacts
+creation_timestamp: 1766400947858
+experiment_id: '754793255498368263'
+last_updated_timestamp: 1766400951844
+model_id: m-bd7bc2a096b041188d0c5d968193ce19
+model_type: null
+name: dl_model
+source_run_id: d1de5c0dc6bb4cd1a1da94b96dd19942
+status: 2
+status_message: null

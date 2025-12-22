@@ -1,33 +1,48 @@
 import sys
-from src.logger import logging
+import traceback
+from src.logger.logging import get_logger
 
-def error_message_detail(error, error_detail: sys):
+logger = get_logger()
+
+
+def error_message_detail(error: Exception, error_detail: sys) -> str:
     _, _, exc_tb = error_detail.exc_info()
+
     file_name = exc_tb.tb_frame.f_code.co_filename
+    line_number = exc_tb.tb_lineno
+
     error_message = (
-        "Error message in python script name [{0}] line number [{1}] error message [{2}]"
-        .format(file_name, exc_tb.tb_lineno, str(error))
+        f"Error occurred in file [{file_name}] "
+        f"at line [{line_number}] "
+        f"with message [{str(error)}]"
     )
+
     return error_message
-    
 
-class dataDBexception(Exception):
-    def __init__(self, error, error_detail: sys):
+
+class ZomatoException(Exception):
+    """
+    Base exception class for the entire project.
+    All custom exceptions should inherit from this.
+    """
+
+    def __init__(self, error: Exception, error_detail: sys):
         super().__init__(str(error))
         self.error_message = error_message_detail(error, error_detail)
-        
+
+        # Log full traceback
+        logger.error(self.error_message)
+        logger.error("Traceback:\n" + traceback.format_exc())
+
     def __str__(self):
         return self.error_message
-    
-class modeltrainexception(Exception):
-    def __init__(self, error, error_detail: sys):
-        super().__init__(str(error))
-        self.error_message = error_message_detail(error, error_detail)
-        
-    def __str__(self):
-        return self.error_message
-    
 
 
+class DatabaseError(ZomatoException):
+    """Raised for MongoDB / data ingestion related errors"""
+    pass
 
 
+class ModelTrainingError(ZomatoException):
+    """Raised for model training related errors"""
+    pass

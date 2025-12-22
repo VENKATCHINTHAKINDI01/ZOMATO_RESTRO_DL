@@ -1,0 +1,22 @@
+artifact_path: file:///Users/ameersohail/Documents/Zomato_restro_DL/mlruns/754793255498368263/models/m-0568eb2012804a8a977de5b6fb56de29/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.9.0
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.13.1
+    model_type: keras
+    save_format: tf
+mlflow_version: 3.1.4
+model_id: m-0568eb2012804a8a977de5b6fb56de29
+model_size_bytes: 440083
+model_uuid: m-0568eb2012804a8a977de5b6fb56de29
+prompts: null
+run_id: 6b4d6842a7b8455283fe69f1bdbba87a
+utc_time_created: '2025-12-22 10:14:13.731019'
